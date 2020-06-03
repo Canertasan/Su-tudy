@@ -1,0 +1,97 @@
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+
+.App {
+  text-align: center;
+  margin-right: 8em;
+}
+
+.fc-toolbar.fc-header-toolbar {
+  background-color: #808080;
+  padding: 16px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-center {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-center button {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-right button,
+.fc-toolbar.fc-header-toolbar .fc-left button {
+  background: none;
+  border: none;
+}
+
+.fc-button-primary:not(:disabled):active:focus,
+.fc-button-primary:not(:disabled).fc-button-active:focus {
+  box-shadow: none;
+}
+
+.fc th {
+  vertical-align: middle;
+  text-transform: capitalize;
+  height: 32px;
+  font-weight: 500;
+}
+
+.fc-list-heading .fc-widget-header {
+  height: 32px;
+  vertical-align: middle;
+  padding: 0 16px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.atrasado,
+.andamento,
+.concluido {
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.atrasado {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.andamento {
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+.concluido {
+  background-color: #43a047;
+  color: #ffffff;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .fc-toolbar.fc-header-toolbar .fc-center h2 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .fc-toolbar.fc-header-toolbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fc-toolbar.fc-header-toolbar .fc-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

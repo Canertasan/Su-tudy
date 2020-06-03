@@ -1,0 +1,112 @@
+.new-topic-div {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.new-img-div{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.root {
+  display: inline;
+  padding-bottom: "100px";
+}
+.notes_div {
+  margin-top: 6em;
+}
+.side-menu-div {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-top: 8em;
+  margin-left: 3em;
+  float: left;
+  position: fixed;
+}
+.favorites-div {
+  display: block;
+  width: 400px;
+  margin-top: 8em;
+  right: 0;
+  margin-right: 2em;
+  position: fixed;
+  width: "550px";
+}
+.img-div {
+  display: block;
+  margin-top: 5em;
+  right: 0;
+  margin-right: 4em;
+  position: fixed;
+  width: "550px";
+  margin-bottom: 2em;
+  /* transform: scale(1.2); */
+}
+.genelbirdiv{
+  margin-top:6em;
+}
+.item_element {
+  margin: 3em;
+  width: 40%;
+  margin-left: 20%;
+  cursor: pointer;
+  display: block;
+  float: center;
+}
+.item_element_notes_img{
+  width: 30%;
+  margin-left: 20%;
+  cursor: pointer;
+  display: block;
+  float: center;
+
+}
+.item_element_chat {
+  margin: 5px;
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 6em;
+  cursor: pointer;
+  display: block;
+
+  float: center;
+}
+.item_element_notes {
+  width: 47%;
+  margin-left: 20%;
+  cursor: pointer;
+  display: block;
+
+  float: center;
+}
+.title-div {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.username-typography {
+  display: inline;
+  font-size: 14px;
+  color: blue;
+}
+
+.title-typography {
+  display: inline;
+  font-weight: bold;
+}
+.root-component {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  cursor: pointer;
+}

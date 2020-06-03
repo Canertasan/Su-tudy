@@ -1,0 +1,109 @@
+.pomodoro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+  align-items: center;
+  border: 2px solid #a9a9a9;
+  width: 500px;
+  margin-left: 6em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.interval-container {
+  display: flex;
+}
+
+.break {
+  margin: 0 20px;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.session {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 10px;
+}
+.up-down-div {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  margin-top: -50px;
+}
+
+.heading {
+  border-bottom: 2px solid #a9a9a9;
+ border-style: none none dotted;
+  font-size: 25px;
+  color: #6495ed;
+  margin-top: -5px;
+}
+.title{
+  text-shadow: 1px 1px 1px 	#A9A9A9,
+             2px 2px 1px 	#A9A9A9;
+  color:#585858;
+}
+.up-down {
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.timer-container {
+  width: 100px;
+  border: 2px solid #a9a9a9;
+  margin-top: 15px;
+  border-radius: 100px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.timer {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+}
+.timerName {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 1px 	#A9A9A9,
+  2px 2px 1px 	#A9A9A9;
+  color:#585858;
+  margin-bottom: -5px;
+  
+}
+
+.timer-actions {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.start-timer {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.stop-timer {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.refresh-timer {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.alarm-onoff {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+   margin-bottom: 10px;
+}

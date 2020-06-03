@@ -1,0 +1,78 @@
+.note-image {
+  width: 350px;
+  height: 500px;
+}
+.hide-image {
+  display: none;
+}
+
+.show-image {
+  display: list-item;
+}
+
+.avatar-typo {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+
+.time {
+  margin-left: auto !important;
+  padding-top: 1.3em;
+}
+.click-typ {
+  cursor: pointer;
+  font-weight: bold;
+}
+.new-note-div {
+  margin: 2em;
+  align-items: center;
+}
+
+.new-note-forum {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 250px;
+}
+
+.no-note {
+  display: flex;
+  padding-left: 25%;
+  align-items: center;
+}
+
+.doc {
+  width: 400px;
+  height: 600px;
+}
+
+.dialog-image {
+  width: 400px;
+  height: 600px;
+}
+
+.expansion-desc-note {
+  display: block;
+  padding: 2px;
+}
+.favorite-div {
+  border-bottom: 2px solid #00000023;
+  margin: 10px;
+}
+.upload-button-handle {
+  background-color: greenyellow !important;
+}
+
+.root {
+  padding: 2em;
+}
+
+.no-note-diss {
+  display: flex;
+  align-items: center;
+}
+
+.add-note-button {
+  align-items: center;
+}

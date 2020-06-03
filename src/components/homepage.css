@@ -1,0 +1,16 @@
+.homepage{
+    display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 8em;
+}
+
+.rightside{
+    width: 55%;
+    align-items: center;
+}
+
+.leftside{
+    width: 45%;
+    margin-top:-1em;
+}
